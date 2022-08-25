@@ -1,0 +1,138 @@
+* {
+     margin: 0%;
+     padding: 0%;
+     box-sizing:border-box; 
+}
+/*header*/
+.header {
+     width: 100%;
+     height: 20vh;
+     padding: 0px 50px;
+     background-color: #fff2af; 
+     box-shadow: #ddce8e 0px 0px 80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 1;
+}
+
+.imagen-logo-header {
+      height: 110px;
+     background-color: #fff2af;
+}
+
+.nav1 {
+     display: flex;
+     list-style: none;
+     gap: 50px;
+     font-size: 30px;
+     background-color: #fff2af;
+}
+
+.navlink1 {
+     text-decoration: none;
+     background-color: #fff2af;
+     color: #d31900;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+} 
+
+/*main*/
+
+.main {
+     display: flex;
+     justify-content: center;
+     height: 300px;
+     background-image: url(./LOGO/fondo.png);
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover;
+  
+     
+}
+.section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+    
+}
+.titulo2 {
+    display: flex;
+    flex-direction: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: #d31900;
+  
+
+}
+.parrafo1{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #ff6600;
+}
+.Sec-img-N {
+    height: 300px;
+    justify-content: flex-end;
+}
+.botones{
+    display: flex;
+    gap: 4%; 
+    height: 10%;
+    border-radius:100%;
+    color: black;
+    align-items: center;
+
+}
+
+.parrafo2 {
+     font-size: 1.7em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #7cb490;
+}
+
+/*section cards*/
+
+.tarjetas{
+margin: 0% 10% 0% ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.card-text {
+     font-size: 1.2em;
+     font-weight:40% ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #d31900;
+}
+
+.card-text2 {
+font-size: 1.2em;
+font-weight:40% ;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #d31900;
+}
+
+.card-text3 {
+    font-size: 1.2em;
+    font-weight:40% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d31900;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+     height: 20vh;
+     background-color: #fff2af; 
+}
